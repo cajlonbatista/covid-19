@@ -25,7 +25,7 @@ export default class World extends Component {
             });
     }
     covid = () => {
-        if (this.state.uf == "") {
+        if (this.state.pais == "") {
             message.error("Selecione um país !")
         } else {
             this.setState({
