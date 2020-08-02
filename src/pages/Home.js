@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./Home.css";
+import covid from "../covid.svg";
 import { SearchOutlined } from '@ant-design/icons';
 import { Select, Button, message, Spin, Descriptions } from 'antd';
 import axios from "axios";
@@ -43,7 +44,7 @@ export default class Home extends Component {
                 <Spin size="large" spinning={this.state.loading}>
                     <div className="home">
                         <div className="logo">
-                            <img src="https://cajlonbatista.github.io/covid-19/assets/logo.svg" alt="" />
+                            <img src={covid} alt="" />
                             <h3>COVID-19 no Brasil</h3>
                         </div>
                         <div className="select">
@@ -95,7 +96,7 @@ export default class Home extends Component {
                 <Spin size="large" spinning={this.state.loading}>
                     <div className="home">
                         <div className="logo">
-                            <img src="https://cajlonbatista.github.io/covid-19/assets/logo.svg" alt="" />
+                            <img src={covid} alt="" />
                             <h3>COVID-19 no Brasil</h3>
                         </div>
                         <div className="select">
