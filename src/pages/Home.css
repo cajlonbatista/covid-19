@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+.home{
+    height: 77vh;
+    animation: spin 2s linear;
+    display: flex;
+    overflow: auto;
+    flex-direction: column;
+    justify-content: space-between;
+}
+@keyframes spin{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.description{
+    width: 100%;
+    max-width: 700px;
+}
+.select{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+.select .search{
+    margin-left: 10px;
+}
+.logo{
+    display: flex;
+    margin: 10px;
+    justify-content: start;
+    align-items: center;
+}
+.logo img{
+    width: 70px;
+}
+.logo h3{
+    font-size: 20px;
+
+    font-family: "Ubuntu", sans-serif;
+}
+.description{
+    margin: 20px auto;
+}

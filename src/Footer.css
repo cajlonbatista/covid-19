@@ -1,0 +1,17 @@
+footer{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+footer div{
+    margin-left: 10px;
+}
+footer div img{
+    width: 30px;
+}
+.divider{
+    margin-top: 20px;
+    width: 100vw;
+    height: 1px;
+    background-color: #141414;
+}
