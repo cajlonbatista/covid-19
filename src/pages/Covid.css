@@ -1,6 +1,8 @@
 .covid{
     height: 77vh;
     overflow: auto;
+    width: 100%;
+    max-width: 800px;
     animation: spin 2s linear;
     padding-top: 15px;
 }
